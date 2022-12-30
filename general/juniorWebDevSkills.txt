@@ -1,0 +1,37 @@
+There are a number of skills that are 
+commonly requested for junior web developer positions.
+
+ Some of the most in-demand skills for junior web developers include:
+
+
+----   Proficiency in HTML, CSS, and JavaScript: 
+
+These are the core technologies for building the front-end of a
+ web application, and most junior web developer positions will 
+ require a solid understanding of these technologies.
+
+----- Familiarity with web development frameworks: 
+
+Many companies use web development frameworks such as React,
+ Angular, or Vue.js to build their applications, and 
+ familiarity with one or more of these frameworks
+  can be a valuable skill for a junior web developer.
+
+----- Knowledge of back-end programming languages: 
+
+In addition to front-end technologies, many junior web developer 
+positions will also require some knowledge of back-end programming
+ languages such as Python, Ruby, or PHP.
+
+----- Strong problem-solving skills: 
+Web development often involves debugging and troubleshooting 
+complex issues, and strong problem-solving skills are essential
+ for a junior web developer.
+
+----- Good communication skills: Web development is often a team-
+based activity, and good communication skills are essential for 
+working effectively with others.
+
+Overall, the specific skills that are requested for a
+ junior web developer position will depend on the specific 
+needs of the company and the requirements of the role.
