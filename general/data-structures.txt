@@ -1,0 +1,208 @@
+There are many different data structures that are commonly
+ used in web development, and the specific data structures
+  used can depend on the specific needs of the application. 
+  
+  Some of the most commonly used data structures 
+  in web development include the following:
+
+Arrays: An array is a collection of data elements that 
+are stored in a contiguous block of memory. Arrays are 
+often used to store lists of data, such as the items
+ in a shopping cart or the results of a database query.
+
+Linked lists: A linked list is a data structure that
+ consists of a series of nodes, each of which stores a data element
+  and a reference to the next node in the list. Linked lists are often 
+  used to store data when the size of the data is not known in advance
+   or when the data needs to be inserted or deleted frequently.
+
+Stacks and queues:
+
+ A stack is a data structure that allows elements to be added and removed in a last-in,
+  first-out (LIFO) order, while a queue is a data structure that allows elements to be 
+  added and removed in a first-in, first-out (FIFO) order. Stacks and queues are often
+   used to store data temporarily or to implement algorithms such as breadth-first search.
+
+Hash tables: 
+
+A hash table is a data structure that uses a hash 
+function to map keys to indices in an array, allowing 
+for fast insertion and lookup of data. Hash tables are
+ often used to implement associative arrays or dictionaries, 
+ and they are commonly used in web development to store data 
+ such as session information or user profiles.
+
+Trees:
+
+ A tree is a data structure that consists of a
+  set of nodes organized in a hierarchical structure, 
+  with a root node at the top and child nodes below it. 
+  Trees are often used to store hierarchical data or to 
+  implement algorithms such as search or sorting.
+
+These are just a few examples of the data structures 
+that are commonly used in web development. The specific
+ data structures used will depend on the needs of the
+  application and the requirements of the problem being solved.
+
+======================================================
+ CHATGPT, can you go into more detail on linked lists?
+ ======================================================
+
+
+Sure! A linked list is a data structure that
+ consists of a series of nodes,
+ each of which stores a data element and a reference 
+ to the next node in the list. Linked lists are often
+  used to store data when the size of the data is not
+   known in advance or when the data needs to be 
+   inserted or deleted frequently.
+
+There are two main types of linked lists: 
+singly linked lists and doubly linked lists.
+ In a singly linked list, each node has a reference to the 
+ next node in the list, but not to the previous node. In a doubly
+  linked list, each node has references to both
+   the next and previous nodes in the list.
+
+Linked lists have several advantages over other data 
+structures such as arrays. One advantage is that they can be resized dynamically, 
+since elements can be inserted or removed from the list without the need 
+to move other elements around. 
+
+This makes linked lists well-suited for scenarios
+ where the size of the data is not known in advance 
+ or where the data may change frequently.
+
+Another advantage of linked lists is that
+ they can be used to implement data structures 
+ such as stacks and queues, which are often
+  used to store data temporarily or to 
+  implement algorithms such as breadth-first search.
+
+Some common use cases for linked lists include
+ storing data in a database or other data
+  storage system, implementing undo/redo 
+  functionality in a software application, 
+  and storing data for a graph or tree data structure
+
+  =======================================================
+  ChatGPT can you please go into more detail
+   on stacks and queue data structures and their use case?
+   ==========================================================
+
+   Sure! A stack is a data structure that allows elements
+    to be added and removed in a last-in, first-out (LIFO)
+     order. A queue is a data structure that allows elements
+      to be added and removed in a first-in, first-out (FIFO) order.
+
+Stacks and queues are often used to store data temporarily
+ or to implement algorithms such as breadth-first search.
+
+One common use case for stacks is to implement undo/redo
+ functionality in a software application. When a user
+  performs an action that can be undone, the details o
+  f the action can be pushed onto a stack. If the user 
+  then decides to undo the action, the details can be
+   popped off the stack and used to reverse the action.
+    Similarly, if the user decides to redo an action
+     that has been undone, the details can be popped 
+     off the stack and used to reapply the action.
+
+Queues are often used to store data that needs
+ to be processed in a specific order. For example,
+  a print queue might store print jobs that need to
+   be printed in the order that they were received,
+    while a task queue might store tasks that need
+     to be processed by a server in the order that
+      they were received.
+
+Other use cases for stacks and queues
+ include storing data in a database or 
+ other data storage system, implementing
+  breadth-first search or depth-first 
+  search algorithms, and storing data for a
+   graph or tree data structure.
+
+=============================================================================
+   ChatGPT can you go into more detail on hash tables and their use cases?
+   =========================================================================
+
+   Sure! A hash table is a data structure
+    that uses a hash function to map keys
+     to indices in an array, allowing for
+      fast insertion and lookup of data. 
+      Hash tables are often used to implement 
+      associative arrays or dictionaries, and
+       they are commonly used in web development
+        to store data such as session information or user profiles.
+
+One key advantage of hash tables is their
+ fast lookup time. By using a hash function 
+ to map keys to specific indices in an array, 
+ it is possible to retrieve the value 
+ associated with a given key in constant time (O(1)). 
+ This makes hash tables an efficient data structure for 
+ storing and accessing data.
+
+Another advantage of hash tables is that
+ they can be resized dynamically, allowing
+  them to store a large number of elements 
+  without consuming too much memory.
+
+Some common use cases for hash tables include
+ storing data in a database or other data 
+ storage system, implementing a cache for
+  storing frequently accessed data, and 
+  storing data for a graph or tree data structure. 
+  Hash tables are also commonly used in web 
+  development to store session information or
+   user profiles, and they are often used
+    to implement associative arrays or 
+    dictionaries in programming languages.
+
+    ==========================
+    
+============================================================
+CHATGPT can you go into more detail on tree data-structures?
+============================================================
+
+
+Sure! A tree is a data structure that consists 
+of a set of nodes organized in a hierarchical structure,
+ with a root node at the top and child nodes below it.
+  Each child node may have its own child nodes, 
+  and so on, forming a branching structure.
+   Trees are often used to store hierarchical 
+   data or to implement algorithms such as search or sorting.
+
+There are several types of tree data structures, 
+including binary trees, binary search trees, and balanced trees.
+
+A binary tree is a tree in which each node has
+ at most two children. A binary search tree 
+ is a type of binary tree in which the value
+  of each node is greater than the values of 
+  the nodes in its left subtree and less than
+   the values of the nodes in its right subtree. 
+   This property allows for fast
+    insertion and lookup of data in a binary search tree.
+
+Balanced trees are trees that
+ are designed to keep the height 
+ of the tree as small as possible,
+  which allows for faster insertion
+   and lookup of data. Examples of
+    balanced tree data structures 
+    include red-black trees and AVL trees.
+
+Some common use cases for tree data
+ structures include storing data 
+ in a database or other data storage
+  system, implementing search or sorting
+   algorithms, and storing data for a graph
+    data structure. Tree data structures are 
+    also often used to represent hierarchical
+     data, such as the structure of a file system 
+     or the relationships between different
+      categories of information.
